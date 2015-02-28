@@ -1,4 +1,4 @@
 Keep In Touch
 =============
 
-Node.js backend
+javascript implementation of the app
