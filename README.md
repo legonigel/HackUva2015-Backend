@@ -1,4 +1,4 @@
 Keep In Touch
 =============
 
-javascript implementation of the app
+Backend services and API Documentation
