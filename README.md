@@ -22,6 +22,8 @@ All responses are in `JSON format`, see a sample below
 }]
 ```
 
+##Fetching Data
+
 ###Getting a user object from their Facebook ID
 
 ```
@@ -74,4 +76,20 @@ https://nodejs-cnuhacks.rhcloud.com/api/contacts/user/{user_id}
 
 ```
 https://nodejs-cnuhacks.rhcloud.com/api/contact/{contact_id}
+```
+
+##Posting data
+
+You must send POST requests to the following endpoints
+
+###Posting a new message
+
+```
+https://nodejs-cnuhacks.rhcloud.com/api/message
+```
+
+- Parameters must be sent in the form
+
+```
+sender={sender_id}&recipient={recipient_id}&message={message_body}&conversation_id={conversation_id_to_store_message}
 ```
