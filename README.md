@@ -55,7 +55,7 @@ https://nodejs-cnuhacks.rhcloud.com/api/messages/conversation/{conversation_id}
 ###Fetch all of the conversations where a user is the receiver or sender, using that user's ID
 
 ```
-https://nodejs-cnuhacks.rhcloud.com/api/messages/conversations/user/{user_id}
+https://nodejs-cnuhacks.rhcloud.com/api/conversations/user/{user_id}
 ```
 
 ###Fetch all of the contacts for a specific user using that user's ID
