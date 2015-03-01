@@ -78,6 +78,12 @@ https://nodejs-cnuhacks.rhcloud.com/api/contacts/user/{user_id}
 https://nodejs-cnuhacks.rhcloud.com/api/contact/{contact_id}
 ```
 
+###Start a (or return an existing) conversation between two user ID's
+
+```
+https://nodejs-cnuhacks.rhcloud.com/api/conversation/new/{user_id_1}/{user_id_2}
+```
+
 ##Posting data
 
 You must send POST requests to the following endpoints
