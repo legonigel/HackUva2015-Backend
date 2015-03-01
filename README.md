@@ -28,7 +28,7 @@ All responses are in `JSON format`, see a sample below
 https://nodejs-cnuhacks.rhcloud.com/api/user/fb_id/{facebook_id}
 ```
 
-###Getting a user from a user ID
+###Getting a user object from a user ID
 
 ```
 https://nodejs-cnuhacks.rhcloud.com/api/user/id/{user_id}
@@ -44,6 +44,12 @@ https://nodejs-cnuhacks.rhcloud.com/api/message/{message_id}
 
 ```
 https://nodejs-cnuhacks.rhcloud.com/api/conversation/{conversation_id}
+```
+
+###Fetch an individual conversation using the id's of its two recipients
+
+```
+https://nodejs-cnuhacks.rhcloud.com/api/conversation/users/{user_id_1}/{user_id_2}
 ```
 
 ###Fetch messages of an entire conversation by conversation ID
